@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './Layout.jsx'
-import Home from './Components/Home/Home.jsx'
-import About from './Components/About/About.jsx'
-import Contact from './Components/ContactUs/Contact.jsx'
+import Layout from './Components/Layout.jsx'
+import Home from './Components/Pages/Home/Home.jsx'
+import About from './Components/Pages/About/About.jsx'
+import Contact from './Components/Pages/ContactUs/Contact.jsx'
 
 const router = createBrowserRouter([
   {
